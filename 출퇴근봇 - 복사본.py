@@ -1,6 +1,4 @@
 import discord
-import openpyxl
-import random
 import asyncio
 import os
 token=os.environ["TOKEN"]
