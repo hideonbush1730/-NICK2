@@ -2,6 +2,8 @@ import discord
 import openpyxl
 import random
 import asyncio
+import os
+token=os.environ["TOKEN"]
 
 client = discord.Client()
 
@@ -70,4 +72,4 @@ async def my_background_task():
 
 client.loop.create_task(my_background_task())
 
-client.run('NjgxMzc3Mzk4ODA5Mjk2OTQ0.XlNkcQ.DPoAnBjLFGwpuEZtQ-Pwv2Ceyyo')
+client.run(token) 
